@@ -1,12 +1,12 @@
 import * as b from "bobril";
-import { AppHeader } from "bobwai--app-header"
+import { observable, computed } from "bobx"
 import * as Icon from "bobwai--icon";
 import * as Color from "bobwai--color";
 import * as Chat from "bobwai--chat";
 import { Chat as ChatBox, IToString } from "bobwai--chat";
 import { itemsSimple } from "./sidebar";
 import { LMainContent } from "bobwai--l-main-content";
-import Avatar from "bobwai--avatar";
+import { useState } from "bobril";
 
 export const iconMdComment = b.styledDiv(null, b.sprite(Icon.user_medium_png, Color.Application));
 
@@ -35,8 +35,8 @@ if (toBeParsed != undefined) {
 const defaultRootCommentId = -1
 
 let lastId1 = 8;
-let activeCommentId = -1;
-let activeCommentId2 = -1;
+//let activeCommentId = -1;
+//let activeCommentId2 = -1;
 
 function showChatName() {
     if (activeChat != undefined) {
@@ -48,7 +48,13 @@ export function generateId(): number {
     return Math.round(Math.random() * new Date().getMilliseconds());
 }
 
+interface IData {}
+
 function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
+    const [chat, setChat] = b.useState("");
+    const [activeCommentId, setActiveCommentId] = useState(-1);
+    const [activeCommentId2, setActiveCommentId2] = useState(-1)
+
     return (
     <LMainContent>
     <text>{showChatName()}</text>
@@ -61,11 +67,10 @@ function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
     activeCommentValue={commentValue}
     onChangeActiveCommentValue={function (text: string) {
         commentValue = text;
-        b.invalidate();
+        setChat(text);
     }}
     onChangeActiveCommentId={function (id): void {
-        activeCommentId = id;
-        b.invalidate();
+        setActiveCommentId(id);
     } } 
     onActiveCommentSubmit={function (parentCommentId, text: string): void {
         if (parentCommentId !== defaultRootCommentId) {
@@ -110,8 +115,7 @@ function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
             model1.filter((c) => c.id === commentId)[0].text = value;
         }
 
-        activeCommentId = -1;
-        b.invalidate();
+        setActiveCommentId(-1);
     }}
     //FIXME: deleting comments seems funky
     onDeleteComment={function (commentId): void {
@@ -125,12 +129,10 @@ function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
             delete model1[model1.findIndex((c) => c.id === commentId)];
         }
 
-        activeCommentId2 = -2;
-        b.invalidate();
+        setActiveCommentId2(-2);
     }}
     onCancelComment={function (): void {
-        activeCommentId = -1;
-        b.invalidate();
+        setActiveCommentId(-1);
     }}
     />
     </LMainContent>

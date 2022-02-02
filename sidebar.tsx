@@ -11,20 +11,17 @@ const onClickSimple = (item: SidebarItem.IData): boolean => {
     setActiveItem(itemsSimple, item.id);
     localStorage['activeChat'] = item.id;
     document.location.reload();
-    b.invalidate();
     return true;
 };
 
 const onClickCollapsible = (item: SidebarItem.IData): boolean => {
     item.isExpanded = !item.isExpanded;
-    b.invalidate();
     return true;
 };
 
 const onClickSubitem = (item: SidebarItem.IData): boolean => {
     setActiveItem(itemsSimple, "-1");
     setActiveItem(subitems, item.id);
-    b.invalidate();
     return true;
 };
 

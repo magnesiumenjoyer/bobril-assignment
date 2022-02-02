@@ -31,10 +31,8 @@ class Main extends b.Component {
                             onChange={function (value: string): void {
                                 filterValue = value;
                                 localStorage['filterValue'] = filterValue;
-                                b.invalidate();
                             } } onTextClear={function (): void {
                                 filterValue = "";
-                                b.invalidate()
                             } }
                             isOnChangeWithDelay={true} />
                         <ApplicationSidebar />

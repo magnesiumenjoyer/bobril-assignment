@@ -10,6 +10,8 @@ import { useState } from "bobril";
 
 export const iconMdComment = b.styledDiv(null, b.sprite(Icon.user_medium_png, Color.Application));
 
+// všechno, čemu se mění hodnota, odsud až po tu komponentu musí být nějak definované v rámci životního cyklu té komponenty. Takhle je to imo strašně nepřehledné náchylné na chybu.
+
 let commentValue = "";
 
 const labels = {
@@ -50,7 +52,9 @@ export function generateId(): number {
 
 interface IData {}
 
+// takhle to nepujde použít správně jako komponenta. Jako parametr tam musí být jenom data, takže by to mělo vypadat spíš data:{items: Chat.IComment<number>[]}
 function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
+    // chat a activeCommentId2 mi přijdou hned na první pohled divný, protože jejich hodnoty se nikde nepoužívají.
     const [chat, setChat] = b.useState("");
     const [activeCommentId, setActiveCommentId] = useState(-1);
     const [activeCommentId2, setActiveCommentId2] = useState(-1)
@@ -74,6 +78,7 @@ function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
     } } 
     onActiveCommentSubmit={function (parentCommentId, text: string): void {
         if (parentCommentId !== defaultRootCommentId) {
+        // celý tenhle blok je zbytečný, ne? foreach je porovná hodnoty a push je do vyfiltrovaného pole, který se stejně zahodí.
             model1.forEach((c) => c.id === parentCommentId)
             model1
                 .filter((c) => c.id === parentCommentId)[0]
@@ -100,6 +105,7 @@ function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
             })
         }
 
+        // tohle nic nedělá. Pokud potřebuješ něco v komponentě focusovat, ale komponenta ti to přímo neumožňuje, tak se to musí dodělat uvnitř té komponenty, ne to ohýbat.
         const element = document.getElementById("someId");
         if (element) {
             element.focus();
@@ -119,6 +125,7 @@ function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
     }}
     //FIXME: deleting comments seems funky
     onDeleteComment={function (commentId): void {
+        // tohle se mi zdá složitý. Když máš id, tak bys měl najít ten comment pomocí find metody (něco jako v else bloku, akorát bez indexu)
         if (!model1.filter((c) => c.id === commentId)[0]) {
             for (let i = 0; i < model1.length; i++) {
                 if (model1[i] && model1[i].replies.filter((c) => c.id === commentId)[0]) {
@@ -129,6 +136,7 @@ function MessageConstructor(items: Chat.IComment<number>[]): b.IBobrilChild{
             delete model1[model1.findIndex((c) => c.id === commentId)];
         }
 
+        // uplně nerozumím proč zrovna -2
         setActiveCommentId2(-2);
     }}
     onCancelComment={function (): void {

@@ -3,885 +3,880 @@
 
 
 "@bobwai/badge@*":
-  "integrity" "sha1-eVWLZxKINXIGA9XtgXJBgN4xAMM="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/badge/-/badge-1.2.0.tgz"
-  "version" "1.2.0"
+  version "1.2.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/badge/-/badge-1.2.1.tgz#2042885d848fa8976f954c4dc87bcd63d1c7d61d"
+  integrity sha1-IEKIXYSPqJdvlUxNyHvNY9HH1h0=
   dependencies:
-    "bobril" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "helpers--icon-renderer" "*"
+    bobril "*"
+    bobwai--design-tokens "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    helpers--icon-renderer "*"
 
 "@bobwai/button@*":
-  "integrity" "sha1-ETaSzkYwhqMoVfvMQpAPuvqNUU8="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/button/-/button-1.7.2.tgz"
-  "version" "1.7.2"
+  version "1.7.4"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/button/-/button-1.7.4.tgz#fb75b25bddc4684e12c2404f6ccc5dd13e43ce86"
+  integrity sha1-+3WyW93EaE4SwkBPbMxd0T5DzoY=
   dependencies:
     "@bobwai/badge" "*"
-    "bobril" "*"
-    "bobwai--action-with-window" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-ellipsis" "*"
-    "bobwai--tooltip-emplacer" "*"
-    "helpers--focusable-component" "*"
-    "helpers--icon-renderer" "*"
-    "helpers--key-codes" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--action-with-window "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-ellipsis "*"
+    bobwai--tooltip-emplacer "*"
+    helpers--focusable-component "*"
+    helpers--icon-renderer "*"
+    helpers--key-codes "*"
+    helpers--web-content-accessibility "*"
 
 "@bobwai/l-stack@*":
-  "integrity" "sha1-x13/AX7maiqUj+TSFTAMkOLvoyY="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/l-stack/-/l-stack-1.0.4.tgz"
-  "version" "1.0.4"
+  version "1.2.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/l-stack/-/l-stack-1.2.0.tgz#16cd9f0130ca0ce13a0d4e5202ad19b0d1b3ef2d"
+  integrity sha1-Fs2fATDKDOE6DU5SAq0ZsNGz7y0=
   dependencies:
-    "bobril" "*"
-    "bobwai--design-tokens" "*"
+    bobril "*"
+    bobwai--design-tokens "*"
+    bobwai--style-mixins "*"
 
 "@bobwai/typography@*":
-  "integrity" "sha1-U2L8ip7xvPHPhWRG40hqtys+rKc="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/typography/-/typography-0.0.4.tgz"
-  "version" "0.0.4"
+  version "0.0.5"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/@bobwai/typography/-/typography-0.0.5.tgz#6e2eeadba976f6ff2a3187b72ff983e78fa7bff9"
+  integrity sha1-bi7q26l29v8qMYe3L/mD54+nv/k=
   dependencies:
-    "bobril" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--style-mixins" "*"
+    bobril "*"
+    bobwai--design-tokens "*"
+    bobwai--form-elements "*"
+    bobwai--style-mixins "*"
 
-"bobflux@*":
-  "integrity" "sha1-funDg7sG5tD8PdpiJ2XWYCOCojE="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobflux/-/bobflux-10.0.2.tgz"
-  "version" "10.0.2"
+"@types/node@^17.0.18":
+  version "17.0.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.18.tgz#3b4fed5cfb58010e3a2be4b6e74615e4847f1074"
+  integrity sha512-eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==
+
+bobflux@*:
+  version "10.0.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobflux/-/bobflux-10.0.2.tgz#7ee9c383bb06e6d0fc3dda622765d6602382a231"
+  integrity sha1-funDg7sG5tD8PdpiJ2XWYCOCojE=
   dependencies:
-    "bobril" "*"
-    "fun-model" "6.*"
+    bobril "*"
+    fun-model "6.*"
 
-"bobril-g11n@*":
-  "integrity" "sha1-Ttl4mmeiRTkn39JosyOdk/sir84="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobril-g11n/-/bobril-g11n-5.0.4.tgz"
-  "version" "5.0.4"
+bobril-g11n@*:
+  version "5.0.4"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobril-g11n/-/bobril-g11n-5.0.4.tgz#4ed9789a67a2453927dfd268b3239d93fb22afce"
+  integrity sha1-Ttl4mmeiRTkn39JosyOdk/sir84=
   dependencies:
-    "bobril" "*"
-    "moment" "^2.10.6"
+    bobril "*"
+    moment "^2.10.6"
 
-"bobril@*", "bobril@^18.0.0":
-  "integrity" "sha512-N67ktCy9A6G5zQR+T+yd0mwHeod/rBuId+sGyA2EW6XPFWWZSe34X/oBgP+aYnXQ6xcRTHUYkph9ggw9DC785Q=="
-  "resolved" "https://registry.npmjs.org/bobril/-/bobril-18.0.0.tgz"
-  "version" "18.0.0"
+bobril@*, bobril@^19.0.0:
+  version "19.0.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobril/-/bobril-19.0.0.tgz#45ae64f17ad0bbddc607db1c24df59d619d532b8"
+  integrity sha1-Ra5k8XrQu93GB9scJN9Z1hnVMrg=
 
-"bobwai--action-with-window@*":
-  "integrity" "sha1-L11xsyah/gkozmOzeQ1XGz0Yfdg="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--action-with-window/-/bobwai--action-with-window-5.20.0.tgz"
-  "version" "5.20.0"
+bobwai--action-with-window@*:
+  version "5.20.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--action-with-window/-/bobwai--action-with-window-5.20.1.tgz#27a045ab6a4170aebd6955d64b227e2ab0ff31ce"
+  integrity sha1-J6BFq2pBcK69aVXWSyJ+KrD/Mc4=
   dependencies:
     "@bobwai/l-stack" "*"
-    "bobril" "*"
-    "bobwai--animation" "*"
-    "bobwai--animation-frame" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--focus-locker" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--keyboard-events" "*"
-    "bobwai--overlay" "*"
-    "bobwai--panel-header" "*"
-    "bobwai--style-mixins" "*"
-    "helpers--key-codes" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--animation "*"
+    bobwai--animation-frame "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--focus-locker "*"
+    bobwai--form-elements "*"
+    bobwai--keyboard-events "*"
+    bobwai--overlay "*"
+    bobwai--panel-header "*"
+    bobwai--style-mixins "*"
+    helpers--key-codes "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--animation-frame@*":
-  "integrity" "sha1-5pRxa/DLCXj92w9hJnAazZnbTyQ="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--animation-frame/-/bobwai--animation-frame-2.3.3.tgz"
-  "version" "2.3.3"
+bobwai--animation-frame@*:
+  version "2.3.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--animation-frame/-/bobwai--animation-frame-2.3.3.tgz#e694716bf0cb0978fddb0f6126701acd99db4f24"
+  integrity sha1-5pRxa/DLCXj92w9hJnAazZnbTyQ=
   dependencies:
-    "bobril" "*"
-    "bobwai--animation" "*"
+    bobril "*"
+    bobwai--animation "*"
 
-"bobwai--animation@*":
-  "integrity" "sha1-al3Lyvkjls4zXbIe1t/bP3DJmZs="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--animation/-/bobwai--animation-1.1.3.tgz"
-  "version" "1.1.3"
+bobwai--animation@*:
+  version "1.1.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--animation/-/bobwai--animation-1.1.3.tgz#6a5dcbcaf92396ce335db21ed6dfdb3f70c9999b"
+  integrity sha1-al3Lyvkjls4zXbIe1t/bP3DJmZs=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"bobwai--app-header@^4.0.4":
-  "integrity" "sha1-tJBoPV5QyV9kKdUR56jad8z/l0k="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--app-header/-/bobwai--app-header-4.0.4.tgz"
-  "version" "4.0.4"
+bobwai--avatar@*, bobwai--avatar@^2.1.1:
+  version "2.1.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--avatar/-/bobwai--avatar-2.1.1.tgz#a1fd14df312936cba0d575649396764c559b6576"
+  integrity sha1-of0U3zEpNsug1XVkk5Z2TFWbZXY=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--font "*"
+    bobwai--icon "*"
+    bobwai--image "*"
+    bobwai--style-mixins "*"
 
-"bobwai--avatar@*", "bobwai--avatar@^2.1.1":
-  "integrity" "sha1-of0U3zEpNsug1XVkk5Z2TFWbZXY="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--avatar/-/bobwai--avatar-2.1.1.tgz"
-  "version" "2.1.1"
+bobwai--button@*:
+  version "7.5.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--button/-/bobwai--button-7.5.0.tgz#fece1dec34516df33c5997cf46aa3b77d1cbc75b"
+  integrity sha1-/s4d7DRRbfM8WZfPRqo7d9HLx1s=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--font" "*"
-    "bobwai--icon" "*"
-    "bobwai--image" "*"
-    "bobwai--style-mixins" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--color-operations "*"
+    bobwai--design-tokens "*"
+    bobwai--focus "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-ellipsis "*"
+    helpers--key-codes "*"
 
-"bobwai--button@*", "bobwai--button@^7.4.2":
-  "integrity" "sha1-D1HPwfEbVyYUABgbL9YrwBI5LUQ="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--button/-/bobwai--button-7.4.2.tgz"
-  "version" "7.4.2"
+bobwai--chat@^9.2.0:
+  version "9.2.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--chat/-/bobwai--chat-9.2.0.tgz#c8eff8e2d1ddc5500e00657d88a59736ae4d0336"
+  integrity sha1-yO/44tHdxVAOAGV9iKWXNq5NAzY=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--color-operations" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--focus" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-ellipsis" "*"
-    "helpers--key-codes" "*"
+    bobril "*"
+    bobril-g11n "*"
+    bobwai--action-with-window "*"
+    bobwai--button "*"
+    bobwai--color "*"
+    bobwai--context-menu "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--icon-checkbox "*"
+    bobwai--keyboard-events "*"
+    bobwai--scroll-shadow "*"
+    bobwai--state-icon "*"
+    bobwai--style-mixins "*"
+    bobwai--textarea "*"
+    bobwai--textarea-tagged "*"
+    bobwai--tooltip-ellipsis "*"
+    helpers--rtl-text "*"
+    helpers--validations "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--chat@^9.1.3":
-  "integrity" "sha1-4M7unZ568KxjGZ1lt0PGyhR9nMQ="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--chat/-/bobwai--chat-9.1.3.tgz"
-  "version" "9.1.3"
+bobwai--color-operations@*:
+  version "4.8.5"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--color-operations/-/bobwai--color-operations-4.8.5.tgz#103c3ffea2d100f8a31bb4c3c3959f8d1a34e2d1"
+  integrity sha1-EDw//qLRAPijG7TDw5WfjRo04tE=
+
+bobwai--color@*, bobwai--color@^4.10.0:
+  version "4.10.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--color/-/bobwai--color-4.10.0.tgz#9222a43be5add032e351a56c8bcaaf41f0b88b81"
+  integrity sha1-kiKkO+Wt0DLjUaVsi8qvQfC4i4E=
   dependencies:
-    "bobflux" "*"
-    "bobril" "*"
-    "bobril-g11n" "*"
-    "bobwai--action-with-window" "*"
-    "bobwai--button" "*"
-    "bobwai--color" "*"
-    "bobwai--context-menu" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-checkbox" "*"
-    "bobwai--keyboard-events" "*"
-    "bobwai--scroll-shadow" "*"
-    "bobwai--state-icon" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--textarea" "*"
-    "bobwai--textarea-tagged" "*"
-    "bobwai--tooltip-ellipsis" "*"
-    "helpers--rtl-text" "*"
-    "helpers--validations" "*"
+    bobril "*"
+    bobwai--color-operations "*"
 
-"bobwai--color-operations@*":
-  "integrity" "sha1-EDw//qLRAPijG7TDw5WfjRo04tE="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--color-operations/-/bobwai--color-operations-4.8.5.tgz"
-  "version" "4.8.5"
-
-"bobwai--color@*":
-  "integrity" "sha1-kiKkO+Wt0DLjUaVsi8qvQfC4i4E="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--color/-/bobwai--color-4.10.0.tgz"
-  "version" "4.10.0"
-  dependencies:
-    "bobril" "*"
-    "bobwai--color-operations" "*"
-
-"bobwai--context-menu@*":
-  "integrity" "sha1-pK6h8MPD1qL4JCSRD1qvvyiOvXw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--context-menu/-/bobwai--context-menu-7.19.1.tgz"
-  "version" "7.19.1"
+bobwai--context-menu@*:
+  version "7.19.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--context-menu/-/bobwai--context-menu-7.19.2.tgz#537e26b31e4b43b353331b76c0f961d9ebd9a047"
+  integrity sha1-U34msx5LQ7NTMxt2wPlh2evZoEc=
   dependencies:
     "@bobwai/badge" "*"
-    "bobril" "*"
-    "bobril-g11n" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--focus-locker" "*"
-    "bobwai--font" "*"
-    "bobwai--icon" "*"
-    "bobwai--l-block" "*"
-    "bobwai--overlay" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-emplacer" "*"
-    "helpers--clipboard" "*"
-    "helpers--icon-renderer" "*"
-    "helpers--key-codes" "*"
-    "helpers--ui-framework-switcher" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobril-g11n "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--focus-locker "*"
+    bobwai--font "*"
+    bobwai--icon "*"
+    bobwai--l-block "*"
+    bobwai--overlay "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-emplacer "*"
+    helpers--clipboard "*"
+    helpers--icon-renderer "*"
+    helpers--key-codes "*"
+    helpers--ui-framework-switcher "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--design-tokens@*":
-  "integrity" "sha1-m7WGAYEN/eGXU6aVhFhkTgLYFdA="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--design-tokens/-/bobwai--design-tokens-5.0.0.tgz"
-  "version" "5.0.0"
+bobwai--design-tokens@*:
+  version "6.0.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--design-tokens/-/bobwai--design-tokens-6.0.3.tgz#a63c51863b250ffb0285193cf3727a2ba2f8a89a"
+  integrity sha1-pjxRhjslD/sChRk883J6K6L4qJo=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"bobwai--empty-state@^2.2.1":
-  "integrity" "sha1-ymakYBRokSchGMXcBXDsTtxYoYw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--empty-state/-/bobwai--empty-state-2.2.1.tgz"
-  "version" "2.2.1"
+bobwai--empty-state@^2.2.1:
+  version "2.2.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--empty-state/-/bobwai--empty-state-2.2.1.tgz#ca66a460146891272118c5dc0570ec4edc58a18c"
+  integrity sha1-ymakYBRokSchGMXcBXDsTtxYoYw=
   dependencies:
     "@bobwai/button" "*"
     "@bobwai/typography" "*"
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--filter@^6.7.0":
-  "integrity" "sha1-XrwU03jsvh+jfEr10dJU/IHN5O0="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--filter/-/bobwai--filter-6.7.0.tgz"
-  "version" "6.7.0"
+bobwai--filter@^6.7.0:
+  version "6.7.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--filter/-/bobwai--filter-6.7.0.tgz#5ebc14d378ecbe1fa37c4af5d1d254fc81cde4ed"
+  integrity sha1-XrwU03jsvh+jfEr10dJU/IHN5O0=
   dependencies:
-    "bobril" "*"
-    "bobril-g11n" "*"
-    "bobwai--color" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "bobwai--state-icon" "*"
-    "bobwai--textbox" "*"
-    "helpers--rtl-text" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobril-g11n "*"
+    bobwai--color "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    bobwai--state-icon "*"
+    bobwai--textbox "*"
+    helpers--rtl-text "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--focus-locker@*":
-  "integrity" "sha1-VojQ2FF7z99I1XSRS1/PFaOB7Gc="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--focus-locker/-/bobwai--focus-locker-1.0.1.tgz"
-  "version" "1.0.1"
+bobwai--focus-locker@*:
+  version "1.0.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--focus-locker/-/bobwai--focus-locker-1.0.1.tgz#5688d0d8517bcfdf48d574914b5fcf15a381ec67"
+  integrity sha1-VojQ2FF7z99I1XSRS1/PFaOB7Gc=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"bobwai--focus@*":
-  "integrity" "sha1-DJK1rWg/DKWUa6AqhLCHLKxvdxE="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--focus/-/bobwai--focus-1.18.2.tgz"
-  "version" "1.18.2"
+bobwai--focus@*:
+  version "1.18.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--focus/-/bobwai--focus-1.18.2.tgz#0c92b5ad683f0ca5946ba02a84b0872cac6f7711"
+  integrity sha1-DJK1rWg/DKWUa6AqhLCHLKxvdxE=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--style-mixins" "*"
-    "helpers--ui-framework-switcher" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--style-mixins "*"
+    helpers--ui-framework-switcher "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--font@*", "bobwai--font@^4.1.0":
-  "integrity" "sha1-WxfRZsZxd9/NCL7hQbAk7qCm3uM="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--font/-/bobwai--font-4.1.0.tgz"
-  "version" "4.1.0"
+bobwai--font@*:
+  version "4.1.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--font/-/bobwai--font-4.1.2.tgz#c37f21c40919370caaec6b72570cd3a86f7cade6"
+  integrity sha1-w38hxAkZNwyq7GtyVwzTqG98reY=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--color-operations" "*"
-    "bobwai--design-tokens" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--color-operations "*"
+    bobwai--design-tokens "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--form-elements@*":
-  "integrity" "sha1-qt8QyF8RiBXPJp9JlRfSdx0bn3M="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--form-elements/-/bobwai--form-elements-3.4.0.tgz"
-  "version" "3.4.0"
+bobwai--form-elements@*:
+  version "3.4.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--form-elements/-/bobwai--form-elements-3.4.0.tgz#aadf10c85f118815cf269f499517d2771d1b9f73"
+  integrity sha1-qt8QyF8RiBXPJp9JlRfSdx0bn3M=
   dependencies:
-    "bobril" "*"
-    "bobwai--style-mixins" "*"
+    bobril "*"
+    bobwai--style-mixins "*"
 
-"bobwai--header-text@*":
-  "integrity" "sha1-R4mjIr18YYoAOlgpSFDl84DVAFg="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--header-text/-/bobwai--header-text-3.7.0.tgz"
-  "version" "3.7.0"
+bobwai--header-text@*:
+  version "3.7.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--header-text/-/bobwai--header-text-3.7.0.tgz#4789a322bd7c618a003a58294850e5f380d50058"
+  integrity sha1-R4mjIr18YYoAOlgpSFDl84DVAFg=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--font" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-ellipsis" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--font "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-ellipsis "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--horizontal-line@*":
-  "integrity" "sha1-pdduVO6KhLzMtj51zwZ8R925fd8="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--horizontal-line/-/bobwai--horizontal-line-3.1.2.tgz"
-  "version" "3.1.2"
+bobwai--horizontal-line@*:
+  version "3.1.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--horizontal-line/-/bobwai--horizontal-line-3.1.3.tgz#ac41bbe4cab1610ae67a40aeae6ea8a82d7545d9"
+  integrity sha1-rEG75MqxYQrmekCurm6oqC11Rdk=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--color-operations" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--color-operations "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--horizontal-scroll-correction@*":
-  "integrity" "sha1-16vucR+kihMYCOE3c1VP4HNvaEk="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--horizontal-scroll-correction/-/bobwai--horizontal-scroll-correction-1.0.6.tgz"
-  "version" "1.0.6"
+bobwai--horizontal-scroll-correction@*:
+  version "1.0.6"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--horizontal-scroll-correction/-/bobwai--horizontal-scroll-correction-1.0.6.tgz#d7abee711fa48a131808e13773554fe0736f6849"
+  integrity sha1-16vucR+kihMYCOE3c1VP4HNvaEk=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"bobwai--icon-checkbox@*":
-  "integrity" "sha1-6TdnD3iuRCA066wxDeKznOE/K8E="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--icon-checkbox/-/bobwai--icon-checkbox-1.3.0.tgz"
-  "version" "1.3.0"
+bobwai--icon-checkbox@*:
+  version "1.3.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--icon-checkbox/-/bobwai--icon-checkbox-1.3.0.tgz#e937670f78ae442034ebac310de2b39ce13f2bc1"
+  integrity sha1-6TdnD3iuRCA066wxDeKznOE/K8E=
   dependencies:
-    "bobril" "*"
-    "bobwai--focus" "*"
-    "helpers--key-codes" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--focus "*"
+    helpers--key-codes "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--icon-svg@*":
-  "integrity" "sha1-fM32o+rT9NyYlLVr7Nlos0RXxs8="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--icon-svg/-/bobwai--icon-svg-4.0.43.tgz"
-  "version" "4.0.43"
+bobwai--icon-svg@*:
+  version "4.0.44"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--icon-svg/-/bobwai--icon-svg-4.0.44.tgz#7052f442406779d6ee89abd83faf2b3e6765872a"
+  integrity sha1-cFL0QkBnedbuiavYP68rPmdlhyo=
   dependencies:
-    "bobril" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--icon" "*"
+    bobril "*"
+    bobwai--design-tokens "*"
+    bobwai--icon "*"
 
-"bobwai--icon@*", "bobwai--icon@^18.12.3":
-  "integrity" "sha1-1snTJE2pWs+lcOhw527EF+TM1xw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--icon/-/bobwai--icon-18.12.3.tgz"
-  "version" "18.12.3"
+bobwai--icon@*, bobwai--icon@^18.12.3:
+  version "18.12.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--icon/-/bobwai--icon-18.12.3.tgz#d6c9d3244da95acfa570e870e76ec417e4ccd71c"
+  integrity sha1-1snTJE2pWs+lcOhw527EF+TM1xw=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
+    bobril "*"
+    bobwai--color "*"
 
-"bobwai--image@*":
-  "integrity" "sha1-ei72cRCkj/+SxN3SQ09iN7n2VTw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--image/-/bobwai--image-2.7.0.tgz"
-  "version" "2.7.0"
+bobwai--image@*:
+  version "2.7.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--image/-/bobwai--image-2.7.0.tgz#7a2ef67110a48fff92c4ddd2434f6237b9f6553c"
+  integrity sha1-ei72cRCkj/+SxN3SQ09iN7n2VTw=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--l-center" "*"
-    "bobwai--style-mixins" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--l-center "*"
+    bobwai--style-mixins "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--keyboard-events@*":
-  "integrity" "sha1-v6O82UwB6kx4JsyIcdX5uLsrSs4="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--keyboard-events/-/bobwai--keyboard-events-3.1.5.tgz"
-  "version" "3.1.5"
+bobwai--keyboard-events@*:
+  version "3.1.5"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--keyboard-events/-/bobwai--keyboard-events-3.1.5.tgz#bfa3bcd94c01ea4c7826cc8871d5f9b8bb2b4ace"
+  integrity sha1-v6O82UwB6kx4JsyIcdX5uLsrSs4=
   dependencies:
-    "bobril" "*"
-    "bobwai--textbox" "*"
+    bobril "*"
+    bobwai--textbox "*"
 
-"bobwai--l-app@*", "bobwai--l-app@^3.3.1":
-  "integrity" "sha1-QsUjJLuju7PGXwEglhaHMfkTd8w="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-app/-/bobwai--l-app-3.3.1.tgz"
-  "version" "3.3.1"
+bobwai--l-app@*, bobwai--l-app@^3.3.1:
+  version "3.3.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-app/-/bobwai--l-app-3.3.1.tgz#42c52324bba3bbb3c65f012096168731f91377cc"
+  integrity sha1-QsUjJLuju7PGXwEglhaHMfkTd8w=
   dependencies:
-    "bobril" "*"
-    "bobwai--design-tokens" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--design-tokens "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--l-block@*":
-  "integrity" "sha1-8SdAZx0848V+fGfeUqJS+c8yRAw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-block/-/bobwai--l-block-3.0.2.tgz"
-  "version" "3.0.2"
+bobwai--l-block@*:
+  version "3.0.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-block/-/bobwai--l-block-3.0.2.tgz#f12740671d3ce3c57e7c67de52a252f9cf32440c"
+  integrity sha1-8SdAZx0848V+fGfeUqJS+c8yRAw=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"bobwai--l-center@*", "bobwai--l-center@^3.1.0":
-  "integrity" "sha1-thZ8XjCV8sk99nV0eVhQVTfWm+0="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-center/-/bobwai--l-center-3.1.0.tgz"
-  "version" "3.1.0"
+bobwai--l-center@*:
+  version "3.1.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-center/-/bobwai--l-center-3.1.0.tgz#b6167c5e3095f2c93df675747958505537d69bed"
+  integrity sha1-thZ8XjCV8sk99nV0eVhQVTfWm+0=
   dependencies:
-    "bobril" "*"
-    "bobwai--style-mixins" "*"
+    bobril "*"
+    bobwai--style-mixins "*"
 
-"bobwai--l-field-group@*":
-  "integrity" "sha1-httYutTHcaoYx0o6xI2Nj+v1ohI="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-field-group/-/bobwai--l-field-group-3.0.4.tgz"
-  "version" "3.0.4"
+bobwai--l-field-group@*:
+  version "3.0.4"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-field-group/-/bobwai--l-field-group-3.0.4.tgz#86db58bad4c771aa18c74a3ac48d8d8febf5a212"
+  integrity sha1-httYutTHcaoYx0o6xI2Nj+v1ohI=
   dependencies:
-    "bobril" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--l-field" "*"
+    bobril "*"
+    bobwai--form-elements "*"
+    bobwai--l-field "*"
 
-"bobwai--l-field@*":
-  "integrity" "sha1-jJAgoh+Yc2A3XY6JaThokQg4FTQ="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-field/-/bobwai--l-field-3.8.9.tgz"
-  "version" "3.8.9"
+bobwai--l-field@*:
+  version "3.8.9"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-field/-/bobwai--l-field-3.8.9.tgz#8c9020a21f987360375d8e896938689108381534"
+  integrity sha1-jJAgoh+Yc2A3XY6JaThokQg4FTQ=
   dependencies:
-    "bobril" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--horizontal-line" "*"
-    "bobwai--style-mixins" "*"
-    "helpers--form-input-scope" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--form-elements "*"
+    bobwai--horizontal-line "*"
+    bobwai--style-mixins "*"
+    helpers--form-input-scope "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--l-inline-items@*":
-  "integrity" "sha1-Qm5grhxkuD6VpSJwldGd9OafEx8="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-inline-items/-/bobwai--l-inline-items-2.11.0.tgz"
-  "version" "2.11.0"
+bobwai--l-inline-items@*:
+  version "2.11.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-inline-items/-/bobwai--l-inline-items-2.11.0.tgz#426e60ae1c64b83e95a5227095d19df4e69f131f"
+  integrity sha1-Qm5grhxkuD6VpSJwldGd9OafEx8=
   dependencies:
-    "bobril" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
+    bobril "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
 
-"bobwai--l-main-content@^4.0.3":
-  "integrity" "sha1-i4n/OWYnULVWgioM/OgcnQOIk50="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-main-content/-/bobwai--l-main-content-4.0.3.tgz"
-  "version" "4.0.3"
+bobwai--l-main-content@^4.0.3:
+  version "4.0.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-main-content/-/bobwai--l-main-content-4.0.3.tgz#8b89ff39662750b556822a0cfce81c9d0388939d"
+  integrity sha1-i4n/OWYnULVWgioM/OgcnQOIk50=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--l-field-group" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--l-field-group "*"
 
-"bobwai--l-view-app-breadcrumb@*":
-  "integrity" "sha1-95hWTRZcyY6rhj4i63u8AUFNNwU="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-app-breadcrumb/-/bobwai--l-view-app-breadcrumb-5.0.3.tgz"
-  "version" "5.0.3"
+bobwai--l-view-app-breadcrumb@*:
+  version "5.0.5"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-app-breadcrumb/-/bobwai--l-view-app-breadcrumb-5.0.5.tgz#e40246701404d44a634afd6ed6fcb8c5942ddb68"
+  integrity sha1-5AJGcBQE1EpjSv1u1vy4xZQt22g=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--color-operations" "*"
-    "bobwai--horizontal-scroll-correction" "*"
-    "bobwai--l-app" "*"
-    "bobwai--l-view-app-header" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--color-operations "*"
+    bobwai--design-tokens "*"
+    bobwai--horizontal-scroll-correction "*"
+    bobwai--l-app "*"
+    bobwai--l-view-app-header "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--l-view-app-header@*":
-  "integrity" "sha1-1G8qpm24pbXU6qzYuX/8DgphC3Q="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-app-header/-/bobwai--l-view-app-header-4.1.0.tgz"
-  "version" "4.1.0"
+bobwai--l-view-app-header@*:
+  version "4.1.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-app-header/-/bobwai--l-view-app-header-4.1.0.tgz#d46f2aa66db8a5b5d4eaacd8b97ffc0e0a610b74"
+  integrity sha1-1G8qpm24pbXU6qzYuX/8DgphC3Q=
   dependencies:
-    "bobril" "*"
-    "bobwai--horizontal-scroll-correction" "*"
-    "bobwai--l-app" "*"
+    bobril "*"
+    bobwai--horizontal-scroll-correction "*"
+    bobwai--l-app "*"
 
-"bobwai--l-view-app-toolbar@*":
-  "integrity" "sha1-4K1+WL1rCLhW1iZgnQgt47YYvlU="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-app-toolbar/-/bobwai--l-view-app-toolbar-3.0.3.tgz"
-  "version" "3.0.3"
+bobwai--l-view-app-toolbar@*:
+  version "3.0.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-app-toolbar/-/bobwai--l-view-app-toolbar-3.0.3.tgz#e0ad7e58bd6b08b856d626609d082de3b618be55"
+  integrity sha1-4K1+WL1rCLhW1iZgnQgt47YYvlU=
   dependencies:
-    "bobril" "*"
-    "bobwai--horizontal-scroll-correction" "*"
-    "bobwai--l-app" "*"
-    "bobwai--l-view-app-breadcrumb" "*"
-    "bobwai--l-view-app-header" "*"
-    "bobwai--toolbar" "*"
+    bobril "*"
+    bobwai--horizontal-scroll-correction "*"
+    bobwai--l-app "*"
+    bobwai--l-view-app-breadcrumb "*"
+    bobwai--l-view-app-header "*"
+    bobwai--toolbar "*"
 
-"bobwai--l-view-main@^3.1.1":
-  "integrity" "sha1-dwJHZFxZNC7tflNp3NqMpbgauL4="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-main/-/bobwai--l-view-main-3.1.1.tgz"
-  "version" "3.1.1"
+bobwai--l-view-main@^3.1.1:
+  version "3.1.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-main/-/bobwai--l-view-main-3.1.1.tgz#770247645c59342eed7e5369dcda8ca5b81ab8be"
+  integrity sha1-dwJHZFxZNC7tflNp3NqMpbgauL4=
   dependencies:
-    "bobril" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--l-app" "*"
-    "bobwai--l-view-app-breadcrumb" "*"
-    "bobwai--l-view-app-header" "*"
-    "bobwai--l-view-app-toolbar" "*"
-    "bobwai--l-view-sidebar" "*"
+    bobril "*"
+    bobwai--design-tokens "*"
+    bobwai--l-app "*"
+    bobwai--l-view-app-breadcrumb "*"
+    bobwai--l-view-app-header "*"
+    bobwai--l-view-app-toolbar "*"
+    bobwai--l-view-sidebar "*"
 
-"bobwai--l-view-sidebar@*", "bobwai--l-view-sidebar@^5.1.1":
-  "integrity" "sha1-YcpEn6fZqtQq926cBqqTUDhgghM="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-sidebar/-/bobwai--l-view-sidebar-5.1.1.tgz"
-  "version" "5.1.1"
+bobwai--l-view-sidebar@*, bobwai--l-view-sidebar@^5.1.1:
+  version "5.1.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-view-sidebar/-/bobwai--l-view-sidebar-5.1.1.tgz#61ca449fa7d9aad42af76e9c06aa935038608213"
+  integrity sha1-YcpEn6fZqtQq926cBqqTUDhgghM=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--horizontal-scroll-correction" "*"
-    "bobwai--l-app" "*"
-    "bobwai--l-view-app-breadcrumb" "*"
-    "bobwai--l-view-app-header" "*"
-    "bobwai--l-view-app-toolbar" "*"
-    "bobwai--tab-item" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--horizontal-scroll-correction "*"
+    bobwai--l-app "*"
+    bobwai--l-view-app-breadcrumb "*"
+    bobwai--l-view-app-header "*"
+    bobwai--l-view-app-toolbar "*"
+    bobwai--tab-item "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--label@*":
-  "integrity" "sha1-eoMLYhRf6Y/lTM8b3Z5aJw5fD6k="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--label/-/bobwai--label-4.4.2.tgz"
-  "version" "4.4.2"
+bobwai--label@*, bobwai--label@^4.4.3:
+  version "4.4.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--label/-/bobwai--label-4.4.3.tgz#7f0fe3d994b4866f3cf7d3695e06bf7a0a3a50a2"
+  integrity sha1-fw/j2ZS0hm8899NpXga/ego6UKI=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-ellipsis" "*"
-    "helpers--ui-framework-switcher" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-ellipsis "*"
+    helpers--ui-framework-switcher "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--overlay@*":
-  "integrity" "sha1-8JTrKSUrjQ/RbAZsHkNJp7odvC0="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--overlay/-/bobwai--overlay-2.2.0.tgz"
-  "version" "2.2.0"
+bobwai--overlay@*:
+  version "2.2.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--overlay/-/bobwai--overlay-2.2.0.tgz#f094eb29252b8d0fd16c066c1e4349a7ba1dbc2d"
+  integrity sha1-8JTrKSUrjQ/RbAZsHkNJp7odvC0=
   dependencies:
-    "bobril" "*"
-    "bobwai--button" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--button "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--panel-header@*":
-  "integrity" "sha1-v6/1PIXIPuDvZejoNnzXX7vPyOw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--panel-header/-/bobwai--panel-header-2.5.0.tgz"
-  "version" "2.5.0"
+bobwai--panel-header@*:
+  version "2.5.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--panel-header/-/bobwai--panel-header-2.5.1.tgz#0d41c860e82493960bfec7e31ef13e80f4b48d4f"
+  integrity sha1-DUHIYOgkk5YL/sfjHvE+gPS0jU8=
   dependencies:
     "@bobwai/button" "*"
     "@bobwai/l-stack" "*"
-    "bobril" "*"
-    "bobril-g11n" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--header-text" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "bobwai--l-inline-items" "*"
-    "bobwai--label" "*"
-    "bobwai--state-icon" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-ellipsis" "*"
-    "bobwai--tooltip-emplacer" "*"
-    "helpers--icon-renderer" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobril-g11n "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--header-text "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    bobwai--l-inline-items "*"
+    bobwai--label "*"
+    bobwai--state-icon "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-ellipsis "*"
+    bobwai--tooltip-emplacer "*"
+    helpers--icon-renderer "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--scroll-shadow@*":
-  "integrity" "sha1-Ny+anM7g4BkHelGhXTP2zRFqs3A="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--scroll-shadow/-/bobwai--scroll-shadow-3.1.4.tgz"
-  "version" "3.1.4"
+bobwai--scroll-shadow@*:
+  version "3.1.6"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--scroll-shadow/-/bobwai--scroll-shadow-3.1.6.tgz#8a334bc0198709bc54f32d5e44f9a05dde4ed8c5"
+  integrity sha1-ijNLwBmHCbxU8y1eRPmgXd5O2MU=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "helpers--browser-identifier" "*"
-    "helpers--scroll-mouse-wheel" "*"
-    "helpers--scrollbar-size" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    helpers--browser-identifier "*"
+    helpers--scroll-mouse-wheel "*"
+    helpers--scrollbar-size "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--sidebar-item-collapsible@*":
-  "integrity" "sha1-GHD87Ds+9BqZ80jImBc8A1nSJ64="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar-item-collapsible/-/bobwai--sidebar-item-collapsible-4.4.2.tgz"
-  "version" "4.4.2"
+bobwai--sidebar-item-collapsible@*:
+  version "4.4.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar-item-collapsible/-/bobwai--sidebar-item-collapsible-4.4.3.tgz#4760d4e51f8d703c6bf6a93a3ebff3ca3350c1de"
+  integrity sha1-R2DU5R+NcDxr9qk6Pr/zyjNQwd4=
   dependencies:
-    "bobril" "*"
-    "bobwai--animation" "*"
-    "bobwai--animation-frame" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--sidebar-item" "*"
-    "helpers--focusable-component" "*"
-    "helpers--key-codes" "*"
-    "helpers--ui-framework-switcher" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--animation "*"
+    bobwai--animation-frame "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--sidebar-item "*"
+    helpers--focusable-component "*"
+    helpers--key-codes "*"
+    helpers--ui-framework-switcher "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--sidebar-item@*":
-  "integrity" "sha1-INV3Og/PKLkkhnsaVJkx7O4hsmo="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar-item/-/bobwai--sidebar-item-6.0.5.tgz"
-  "version" "6.0.5"
+bobwai--sidebar-item@*, bobwai--sidebar-item@^6.1.0:
+  version "6.1.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar-item/-/bobwai--sidebar-item-6.1.0.tgz#9cfc432721d10dc04714928399116a8c9c3ddcc5"
+  integrity sha1-nPxDJyHRDcBHFJKDmRFqjJw93MU=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--color-operations" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-emplacer" "*"
-    "helpers--focusable-component" "*"
-    "helpers--icon-renderer" "*"
-    "helpers--key-codes" "*"
-    "helpers--ui-framework-switcher" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--color-operations "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-ellipsis "*"
+    bobwai--tooltip-emplacer "*"
+    helpers--focusable-component "*"
+    helpers--icon-renderer "*"
+    helpers--key-codes "*"
+    helpers--ui-framework-switcher "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--sidebar@^2.0.10":
-  "integrity" "sha1-2BfFexGP7q90RYOZGP1H9DcI/6I="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar/-/bobwai--sidebar-2.0.10.tgz"
-  "version" "2.0.10"
+bobwai--sidebar@^2.0.10:
+  version "2.0.10"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar/-/bobwai--sidebar-2.0.10.tgz#d817c57b118feeaf7445839918fd47f43708ffa2"
+  integrity sha1-2BfFexGP7q90RYOZGP1H9DcI/6I=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--sidebar-item" "*"
-    "bobwai--sidebar-item-collapsible" "*"
-    "bobwai--style-mixins" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--sidebar-item "*"
+    bobwai--sidebar-item-collapsible "*"
+    bobwai--style-mixins "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--state-icon@*":
-  "integrity" "sha1-NcQMdy9jMYKyytSdCvph00fK9WM="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--state-icon/-/bobwai--state-icon-4.9.1.tgz"
-  "version" "4.9.1"
+bobwai--state-icon@*:
+  version "4.9.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--state-icon/-/bobwai--state-icon-4.9.1.tgz#35c40c772f633182b2cad49d0afa61d347caf563"
+  integrity sha1-NcQMdy9jMYKyytSdCvph00fK9WM=
   dependencies:
-    "bobril" "*"
-    "bobwai--focus" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-emplacer" "*"
+    bobril "*"
+    bobwai--focus "*"
+    bobwai--form-elements "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-emplacer "*"
 
-"bobwai--style-mixins@*":
-  "integrity" "sha1-KxHVr73aZZH2cdQ+r5GGSkQS9pw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--style-mixins/-/bobwai--style-mixins-2.5.2.tgz"
-  "version" "2.5.2"
+bobwai--style-mixins@*:
+  version "2.5.4"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--style-mixins/-/bobwai--style-mixins-2.5.4.tgz#851d110080744e4f848f82ac17f5aef534d82dc2"
+  integrity sha1-hR0RAIB0Tk+Ej4KsF/Wu9TTYLcI=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--font" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--font "*"
 
-"bobwai--tab-item@*":
-  "integrity" "sha1-lTshM6kQV5vVaPy2uYu0dCOaMMc="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tab-item/-/bobwai--tab-item-5.4.0.tgz"
-  "version" "5.4.0"
+bobwai--tab-item@*:
+  version "5.4.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tab-item/-/bobwai--tab-item-5.4.0.tgz#953b2133a910579bd568fcb6b98bb474239a30c7"
+  integrity sha1-lTshM6kQV5vVaPy2uYu0dCOaMMc=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--color-operations" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--state-icon" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-ellipsis" "*"
-    "bobwai--tooltip-emplacer" "*"
-    "helpers--focusable-component" "*"
-    "helpers--key-codes" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--color-operations "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--state-icon "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-ellipsis "*"
+    bobwai--tooltip-emplacer "*"
+    helpers--focusable-component "*"
+    helpers--key-codes "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--textarea-tagged@*":
-  "integrity" "sha1-5bWmCuxWYIGj0SQzUyrIkpzuXCo="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--textarea-tagged/-/bobwai--textarea-tagged-2.1.1.tgz"
-  "version" "2.1.1"
+bobwai--textarea-tagged@*:
+  version "2.1.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--textarea-tagged/-/bobwai--textarea-tagged-2.1.1.tgz#e5b5a60aec566081a3d12433532ac8929cee5c2a"
+  integrity sha1-5bWmCuxWYIGj0SQzUyrIkpzuXCo=
   dependencies:
-    "bobril" "*"
-    "bobril-g11n" "*"
-    "bobwai--avatar" "*"
-    "bobwai--color" "*"
-    "bobwai--font" "*"
-    "bobwai--icon" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--textarea" "*"
+    bobril "*"
+    bobril-g11n "*"
+    bobwai--avatar "*"
+    bobwai--color "*"
+    bobwai--font "*"
+    bobwai--icon "*"
+    bobwai--style-mixins "*"
+    bobwai--textarea "*"
 
-"bobwai--textarea@*":
-  "integrity" "sha1-qf5/RfOKG0RL6Dkb6DIQqsTOrGI="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--textarea/-/bobwai--textarea-7.9.2.tgz"
-  "version" "7.9.2"
+bobwai--textarea@*:
+  version "7.9.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--textarea/-/bobwai--textarea-7.9.3.tgz#378a4fb24e848bb11e9438e118fa7a84142243e6"
+  integrity sha1-N4pPsk6Ei7EelDjhGPp6hBQiQ+Y=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "bobwai--style-mixins" "*"
-    "helpers--form-context" "*"
-    "helpers--icon-renderer" "*"
-    "helpers--rtl-text" "*"
-    "helpers--ui-framework-switcher" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    bobwai--style-mixins "*"
+    helpers--form-context "*"
+    helpers--icon-renderer "*"
+    helpers--rtl-text "*"
+    helpers--ui-framework-switcher "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--textbox@*":
-  "integrity" "sha1-qaLKBaOSezfdCFz4Z1d+Ewc2B14="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--textbox/-/bobwai--textbox-6.26.1.tgz"
-  "version" "6.26.1"
+bobwai--textbox@*:
+  version "6.26.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--textbox/-/bobwai--textbox-6.26.2.tgz#3a1e12feddbd105f37ba1ad68e8a00489e5d46c1"
+  integrity sha1-Oh4S/t29EF83uhrWjooASJ5dRsE=
   dependencies:
     "@bobwai/button" "*"
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "bobwai--l-center" "*"
-    "bobwai--state-icon" "*"
-    "bobwai--style-mixins" "*"
-    "bobwai--tooltip-emplacer" "*"
-    "helpers--form-context" "*"
-    "helpers--icon-renderer" "*"
-    "helpers--key-codes" "*"
-    "helpers--rtl-text" "*"
-    "helpers--ui-framework-switcher" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    bobwai--l-center "*"
+    bobwai--state-icon "*"
+    bobwai--style-mixins "*"
+    bobwai--tooltip-emplacer "*"
+    helpers--form-context "*"
+    helpers--icon-renderer "*"
+    helpers--key-codes "*"
+    helpers--rtl-text "*"
+    helpers--ui-framework-switcher "*"
+    helpers--web-content-accessibility "*"
 
-"bobwai--toolbar@*":
-  "integrity" "sha1-calEsyHCbzD6n4bi0FpQp2nU6UY="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--toolbar/-/bobwai--toolbar-2.4.2.tgz"
-  "version" "2.4.2"
+bobwai--toolbar@*:
+  version "2.4.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--toolbar/-/bobwai--toolbar-2.4.2.tgz#71a944b321c26f30fa9f86e2d05a50a769d4e946"
+  integrity sha1-calEsyHCbzD6n4bi0FpQp2nU6UY=
   dependencies:
-    "bobril" "*"
-    "bobwai--action-with-window" "*"
-    "bobwai--color" "*"
-    "bobwai--icon" "*"
+    bobril "*"
+    bobwai--action-with-window "*"
+    bobwai--color "*"
+    bobwai--icon "*"
 
-"bobwai--tooltip-ellipsis@*":
-  "integrity" "sha1-EMuhkVBHJM9rXQKzgEPuZPSaYtc="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tooltip-ellipsis/-/bobwai--tooltip-ellipsis-3.2.4.tgz"
-  "version" "3.2.4"
+bobwai--tooltip-ellipsis@*:
+  version "3.2.4"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tooltip-ellipsis/-/bobwai--tooltip-ellipsis-3.2.4.tgz#10cba191504724cf6b5d02b38043ee64f49a62d7"
+  integrity sha1-EMuhkVBHJM9rXQKzgEPuZPSaYtc=
   dependencies:
-    "bobril" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--tooltip-emplacer" "*"
+    bobril "*"
+    bobwai--form-elements "*"
+    bobwai--tooltip-emplacer "*"
 
-"bobwai--tooltip-emplacer@*":
-  "integrity" "sha1-hZQPeR81BWPrTWiGkvgfvHs1ZJ0="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tooltip-emplacer/-/bobwai--tooltip-emplacer-2.9.3.tgz"
-  "version" "2.9.3"
+bobwai--tooltip-emplacer@*:
+  version "2.9.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tooltip-emplacer/-/bobwai--tooltip-emplacer-2.9.3.tgz#85940f791f350563eb4d688692f81fbc7b35649d"
+  integrity sha1-hZQPeR81BWPrTWiGkvgfvHs1ZJ0=
   dependencies:
-    "bobril" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--tooltip-message" "*"
-    "helpers--equal" "*"
-    "helpers--key-codes" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--form-elements "*"
+    bobwai--tooltip-message "*"
+    helpers--equal "*"
+    helpers--key-codes "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--tooltip-message@*":
-  "integrity" "sha1-kFY1l9vVgpwdSssLkSoXXBD0XNk="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tooltip-message/-/bobwai--tooltip-message-5.0.0.tgz"
-  "version" "5.0.0"
+bobwai--tooltip-message@*:
+  version "5.0.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--tooltip-message/-/bobwai--tooltip-message-5.0.1.tgz#fb30eb80f4896940e8e0d37c737926d24932c513"
+  integrity sha1-+zDrgPSJaUDo4NN8c3km0kkyxRM=
   dependencies:
-    "bobril" "*"
-    "bobwai--color" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
-    "helpers--rtl-text" "*"
-    "helpers--ui-framework-switcher" "*"
+    bobril "*"
+    bobwai--color "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
+    bobwai--form-elements "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
+    helpers--rtl-text "*"
+    helpers--ui-framework-switcher "*"
 
-"bobwai--viewer-container@^4.7.0":
-  "integrity" "sha1-vNr88g0dVs6pncVNeGMVJen0ARM="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--viewer-container/-/bobwai--viewer-container-4.7.0.tgz"
-  "version" "4.7.0"
+bobwai--viewer-container@^4.7.0:
+  version "4.7.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--viewer-container/-/bobwai--viewer-container-4.7.0.tgz#bcdafcf20d1d56cea99dc54d78631525e9f40113"
+  integrity sha1-vNr88g0dVs6pncVNeGMVJen0ARM=
   dependencies:
-    "bobril" "*"
-    "bobwai--design-tokens" "*"
-    "bobwai--font" "*"
+    bobril "*"
+    bobwai--design-tokens "*"
+    bobwai--font "*"
 
-"bobx@^0.29.0":
-  "integrity" "sha1-2YD0AGRovMAfuDQtGGuhYvhfvW8="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobx/-/bobx-0.29.0.tgz"
-  "version" "0.29.0"
+fun-model@6.*:
+  version "6.4.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/fun-model/-/fun-model-6.4.0.tgz#9e99fe067861bacd7383fbe2f3d67577a2aaf23b"
+  integrity sha1-npn+Bnhhus1zg/vi89Z1d6Kq8js=
+
+helpers--browser-identifier@*:
+  version "1.0.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--browser-identifier/-/helpers--browser-identifier-1.0.1.tgz#fb44923328d7e6f0e3bc48af7f630cf6820a281d"
+  integrity sha1-+0SSMyjX5vDjvEivf2MM9oIKKB0=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"fun-model@6.*":
-  "integrity" "sha1-npn+Bnhhus1zg/vi89Z1d6Kq8js="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/fun-model/-/fun-model-6.4.0.tgz"
-  "version" "6.4.0"
-
-"helpers--browser-identifier@*":
-  "integrity" "sha1-+0SSMyjX5vDjvEivf2MM9oIKKB0="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--browser-identifier/-/helpers--browser-identifier-1.0.1.tgz"
-  "version" "1.0.1"
+helpers--clipboard@*:
+  version "1.2.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--clipboard/-/helpers--clipboard-1.2.1.tgz#25121cc7f107764f220c594f112ab393854df245"
+  integrity sha1-JRIcx/EHdk8iDFlPESqzk4VN8kU=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"helpers--clipboard@*":
-  "integrity" "sha1-JRIcx/EHdk8iDFlPESqzk4VN8kU="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--clipboard/-/helpers--clipboard-1.2.1.tgz"
-  "version" "1.2.1"
+helpers--element-id-generator@*:
+  version "1.0.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--element-id-generator/-/helpers--element-id-generator-1.0.2.tgz#56a7599454cd477dba3a574887a2580cd2e66fb4"
+  integrity sha1-VqdZlFTNR326OldIh6JYDNLmb7Q=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"helpers--element-id-generator@*":
-  "integrity" "sha1-VqdZlFTNR326OldIh6JYDNLmb7Q="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--element-id-generator/-/helpers--element-id-generator-1.0.2.tgz"
-  "version" "1.0.2"
+helpers--equal@*:
+  version "2.0.5"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--equal/-/helpers--equal-2.0.5.tgz#a9050f84baf0c9de2afe730ac2161d07c1f2be49"
+  integrity sha1-qQUPhLrwyd4q/nMKwhYdB8Hyvkk=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"helpers--equal@*":
-  "integrity" "sha1-qQUPhLrwyd4q/nMKwhYdB8Hyvkk="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--equal/-/helpers--equal-2.0.5.tgz"
-  "version" "2.0.5"
+helpers--focusable-component@*:
+  version "2.0.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--focusable-component/-/helpers--focusable-component-2.0.1.tgz#5c386e1501437cf755b2f94fa3c3a6171eba9d3f"
+  integrity sha1-XDhuFQFDfPdVsvlPo8OmFx66nT8=
   dependencies:
-    "bobril" "*"
+    bobril "*"
 
-"helpers--focusable-component@*":
-  "integrity" "sha1-5BuimFX7Zc4+Kx9HuVNtaZPKAZY="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--focusable-component/-/helpers--focusable-component-2.0.0.tgz"
-  "version" "2.0.0"
+helpers--form-context@*:
+  version "0.0.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--form-context/-/helpers--form-context-0.0.3.tgz#15d3c2a068bd608097d26a6fdbf3c95d044a5552"
+  integrity sha1-FdPCoGi9YICX0mpv2/PJXQRKVVI=
   dependencies:
-    "bobril" "*"
+    bobril "*"
+    bobwai--form-elements "*"
 
-"helpers--form-context@*":
-  "integrity" "sha1-FdPCoGi9YICX0mpv2/PJXQRKVVI="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--form-context/-/helpers--form-context-0.0.3.tgz"
-  "version" "0.0.3"
+helpers--form-input-scope@*:
+  version "0.0.4"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--form-input-scope/-/helpers--form-input-scope-0.0.4.tgz#db033c5d7115c4d140b0c93353c21fe6a1288b5b"
+  integrity sha1-2wM8XXEVxNFAsMkzU8If5qEoi1s=
   dependencies:
-    "bobril" "*"
-    "bobwai--form-elements" "*"
+    bobril "*"
+    bobwai--label "*"
+    helpers--element-id-generator "*"
+    helpers--form-context "*"
+    helpers--web-content-accessibility "*"
 
-"helpers--form-input-scope@*":
-  "integrity" "sha1-2wM8XXEVxNFAsMkzU8If5qEoi1s="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--form-input-scope/-/helpers--form-input-scope-0.0.4.tgz"
-  "version" "0.0.4"
+helpers--icon-renderer@*:
+  version "0.0.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--icon-renderer/-/helpers--icon-renderer-0.0.2.tgz#0413457bad5c90c52be68069fd9cee019e92df4a"
+  integrity sha1-BBNFe61ckMUr5oBp/ZzuAZ6S30o=
   dependencies:
-    "bobril" "*"
-    "bobwai--label" "*"
-    "helpers--element-id-generator" "*"
-    "helpers--form-context" "*"
-    "helpers--web-content-accessibility" "*"
+    bobril "*"
+    bobwai--icon "*"
+    bobwai--icon-svg "*"
 
-"helpers--icon-renderer@*":
-  "integrity" "sha1-BBNFe61ckMUr5oBp/ZzuAZ6S30o="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--icon-renderer/-/helpers--icon-renderer-0.0.2.tgz"
-  "version" "0.0.2"
+helpers--key-codes@*:
+  version "1.2.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--key-codes/-/helpers--key-codes-1.2.0.tgz#c1d8b66d8fc80dff80b3cc16d5d818be53ba6194"
+  integrity sha1-wdi2bY/IDf+As8wW1dgYvlO6YZQ=
+
+helpers--promise@*:
+  version "1.0.5"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--promise/-/helpers--promise-1.0.5.tgz#42f5409eb7420bb4b2a48acd7f4c5e453310764c"
+  integrity sha1-QvVAnrdCC7SypIrNf0xeRTMQdkw=
+
+helpers--rtl-text@*:
+  version "2.0.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--rtl-text/-/helpers--rtl-text-2.0.2.tgz#ce2749ca67bb732365a78a14a53cae2e9c3da9c0"
+  integrity sha1-zidJyme7cyNlp4oUpTyuLpw9qcA=
   dependencies:
-    "bobril" "*"
-    "bobwai--icon" "*"
-    "bobwai--icon-svg" "*"
+    bobril "*"
+    bobwai--form-elements "*"
 
-"helpers--key-codes@*":
-  "integrity" "sha1-wdi2bY/IDf+As8wW1dgYvlO6YZQ="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--key-codes/-/helpers--key-codes-1.2.0.tgz"
-  "version" "1.2.0"
-
-"helpers--promise@*":
-  "integrity" "sha1-QvVAnrdCC7SypIrNf0xeRTMQdkw="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--promise/-/helpers--promise-1.0.5.tgz"
-  "version" "1.0.5"
-
-"helpers--rtl-text@*":
-  "integrity" "sha1-zidJyme7cyNlp4oUpTyuLpw9qcA="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--rtl-text/-/helpers--rtl-text-2.0.2.tgz"
-  "version" "2.0.2"
+helpers--scroll-mouse-wheel@*:
+  version "1.0.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--scroll-mouse-wheel/-/helpers--scroll-mouse-wheel-1.0.2.tgz#c6e3a62430239ebcf9c9c826efb95ac2cf9e8258"
+  integrity sha1-xuOmJDAjnrz5ycgm77laws+eglg=
   dependencies:
-    "bobril" "*"
-    "bobwai--form-elements" "*"
+    bobril "*"
 
-"helpers--scroll-mouse-wheel@*":
-  "integrity" "sha1-xuOmJDAjnrz5ycgm77laws+eglg="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--scroll-mouse-wheel/-/helpers--scroll-mouse-wheel-1.0.2.tgz"
-  "version" "1.0.2"
+helpers--scrollbar-size@*:
+  version "2.1.2"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--scrollbar-size/-/helpers--scrollbar-size-2.1.2.tgz#b8ea231de903ec9f8d6928f923e1871af3aca4a8"
+  integrity sha1-uOojHekD7J+NaSj5I+GHGvOspKg=
   dependencies:
-    "bobril" "*"
+    bobril "*"
+    helpers--browser-identifier "*"
 
-"helpers--scrollbar-size@*":
-  "integrity" "sha1-uOojHekD7J+NaSj5I+GHGvOspKg="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--scrollbar-size/-/helpers--scrollbar-size-2.1.2.tgz"
-  "version" "2.1.2"
+helpers--ui-framework-switcher@*:
+  version "1.1.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--ui-framework-switcher/-/helpers--ui-framework-switcher-1.1.0.tgz#85e0a51516b9b6f2e667fd794d5f23cd11b6b257"
+  integrity sha1-heClFRa5tvLmZ/15TV8jzRG2slc=
   dependencies:
-    "bobril" "*"
-    "helpers--browser-identifier" "*"
+    bobril "*"
 
-"helpers--ui-framework-switcher@*":
-  "integrity" "sha1-heClFRa5tvLmZ/15TV8jzRG2slc="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--ui-framework-switcher/-/helpers--ui-framework-switcher-1.1.0.tgz"
-  "version" "1.1.0"
+helpers--validations@*:
+  version "14.1.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--validations/-/helpers--validations-14.1.1.tgz#afaf1944aa6d6bb57be95e7e4be16903ef25d31b"
+  integrity sha1-r68ZRKpta7V76V5+S+FpA+8l0xs=
   dependencies:
-    "bobril" "*"
+    bobflux "*"
+    bobril "*"
+    bobwai--form-elements "*"
+    bobwai--tooltip-emplacer "*"
+    helpers--promise "*"
 
-"helpers--validations@*":
-  "integrity" "sha1-tXfBi/gCLCpEkshjCv6zqmO7zDs="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--validations/-/helpers--validations-14.1.0.tgz"
-  "version" "14.1.0"
+helpers--web-content-accessibility@*:
+  version "2.11.0"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--web-content-accessibility/-/helpers--web-content-accessibility-2.11.0.tgz#6fe421ab27781ccf4063d7fdd03303955558d5a9"
+  integrity sha1-b+Qhqyd4HM9AY9f90DMDlVVY1ak=
   dependencies:
-    "bobflux" "*"
-    "bobril" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--tooltip-emplacer" "*"
-    "helpers--promise" "*"
+    bobril "*"
+    bobwai--form-elements "*"
+    bobwai--style-mixins "*"
 
-"helpers--web-content-accessibility@*":
-  "integrity" "sha1-ALb0MWRqyeYC1CQsWL/F6Wi9DYk="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/helpers--web-content-accessibility/-/helpers--web-content-accessibility-2.10.0.tgz"
-  "version" "2.10.0"
-  dependencies:
-    "bobril" "*"
-    "bobwai--form-elements" "*"
-    "bobwai--style-mixins" "*"
-
-"moment@^2.10.6":
-  "integrity" "sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M="
-  "resolved" "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/moment/-/moment-2.29.1.tgz"
-  "version" "2.29.1"
+moment@^2.10.6:
+  version "2.29.1"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=

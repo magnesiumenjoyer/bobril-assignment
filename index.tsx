@@ -5,45 +5,34 @@ import { LViewMain } from "bobwai--l-view-main";
 import Avatar from "bobwai--avatar";
 import { Filter } from "bobwai--filter";
 import { EmptyState } from "bobwai--empty-state";
-import { ApplicationSidebar } from "./sidebar";
+import { ApplicationSidebar, useActiveChat } from "./sidebar";
 import { ChatBoxComponent } from "./chat";
+import { Label, Size } from "bobwai--label";
 
-var isChatOpen = false;
-var filterValue = "";
+function Main() {
+    const [filterValue, setFilterValue] = b.useState("");
+    const [activeChat, setActiveChat] = b.useState("");
 
-function emptyStateCheck() {
-    if (localStorage['activeChat'] == undefined) {
-        return <EmptyState message={"No chat chosen"} />
-    } else {
-        return ChatBoxComponent();
+    function EmptyStateCheck(): b.IBobrilChild {
+        if (activeChat == "") {
+            return <EmptyState message={"No chat chosen"} />
+        } else {
+            return <ChatBoxComponent activeChat={activeChat} setActiveChat={setActiveChat} />;
+        }
     }
-}
 
-class Main extends b.Component {
-    render(): b.IBobrilChildren {
-        return (
-            <>
-                <LApp>
-                    <LViewSidebar width={SidebarWidth.Medium} >
-                            <Avatar size={100} />
-                            <text> John Mitchell</text>
-                            <Filter value="" 
-                            onChange={function (value: string): void {
-                                filterValue = value;
-                                localStorage['filterValue'] = filterValue;
-                            } } onTextClear={function (): void {
-                                filterValue = "";
-                            } }
-                            isOnChangeWithDelay={true} />
-                        <ApplicationSidebar />
-                    </LViewSidebar> 
-                    <LViewMain isCombinedWithSidebar sidebarWidth={SidebarWidth.Medium}>
-                        {emptyStateCheck()}
-                    </LViewMain>
-                </LApp>
-            </>
-        )
-    }
+    return (
+        <LApp>
+            <LViewSidebar width={SidebarWidth.Medium} >
+                    <Avatar size={100} />
+                    <Label isSimple size={Size.Medium}> John Mitchell</Label>
+                <ApplicationSidebar activeChat={activeChat} setActiveChat={setActiveChat} />
+            </LViewSidebar> 
+            <LViewMain isCombinedWithSidebar sidebarWidth={SidebarWidth.Medium}>
+                {EmptyStateCheck()}
+            </LViewMain>
+        </LApp>
+    )
 }
 
 b.init(() => <Main />);

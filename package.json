@@ -13,13 +13,12 @@
     "bobwai--color": "^4.10.0",
     "bobwai--empty-state": "^2.2.1",
     "bobwai--filter": "^6.7.0",
-    "bobwai--icon": "^18.12.3",
     "bobwai--l-app": "^3.3.1",
+    "bobwai--l-content-with-header": "^2.0.3",
     "bobwai--l-main-content": "^4.0.3",
     "bobwai--l-view-main": "^3.1.1",
     "bobwai--l-view-sidebar": "^5.1.1",
     "bobwai--label": "^4.4.3",
-    "bobwai--sidebar": "^2.0.10",
     "bobwai--sidebar-item": "^6.1.0",
     "bobwai--viewer-container": "^4.7.0"
   }

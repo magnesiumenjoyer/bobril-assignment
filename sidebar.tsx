@@ -1,75 +1,37 @@
 import * as b from "bobril";
-import { Sidebar } from "bobwai--sidebar";
+import { IProfile } from ".";
 import { Background, ViewerContainer } from "bobwai--viewer-container";
-import * as SidebarItem from "bobwai--sidebar-item";
-import Avatar from "bobwai--avatar";
-import * as Color from "bobwai--color";
-import { useEffect, useState } from "bobril";
-import { Filter } from "bobwai--filter";
+import { SidebarItem, IData as ISidebarItem} from "bobwai--sidebar-item";
 
 interface IActiveChat {
-    activeChat: string,
-    setActiveChat: Function
+    activeChat: IProfile | undefined,
+    setActiveChat: Function,
+    filterValue: string
 }
 
-function getFriendList(group: SidebarItem.IData[], filterValue: string): b.IBobrilChildren {
-    const friends: b.IBobrilChildren = [];
+export function Sidebar(data: IActiveChat): b.IBobrilNode{
 
-    if(filterValue == ""){
-        group.forEach(element => {
-            friends.push(SidebarItem.create(element));
-        });
-    } else {
-        group.forEach(element => {
-            if (element.title.toLowerCase().includes(filterValue))
-                friends.push(SidebarItem.create(element))
-        })
+    const TestFriends: ISidebarItem[] = [
+        { id: "1", title: "Dummy1", onClick: () => data.setActiveChat({id: 1, username: "Dummy1", profilePicture: "https://img-9gag-fun.9cache.com/photo/a3Q5VW5_460s.jpg"}) },
+        { id: "2", title: "Dummy2", onClick: () => data.setActiveChat({id: 2, username: "Dummy2", profilePicture: "https://img-comment-fun.9cache.com/media/aZLoAK3/a0N96pE6_700w_0.jpg"}) },
+        { id: "3", title: "Dummy3", onClick: () => data.setActiveChat({id: 3, username: "Dummy3", profilePictuer: "https://img-comment-fun.9cache.com/media/aZn16z/aDVakxox_700w_0.jpg"}) }
+    ];
+    
+    function getFriendList(group: ISidebarItem[]): b.IBobrilChildren {
+        const friends: b.IBobrilChildren = [];
+    
+        if (data.filterValue === "") {
+            return group.map(group => <SidebarItem {...group} />);
+        } else {
+            return group.filter(g => g.title.toLocaleLowerCase().includes(data.filterValue.toLocaleLowerCase())).map(g => <SidebarItem {...g} />);
+        }
+    
+        return friends;
     }
 
-    return friends;
-}
-
-export function useActiveChat(){
-    const [activeChat, setActiveChat] = useState("");
-    
-    useEffect(() => {
-        function handleChatChange(item: SidebarItem.IData){
-            setActiveChat(item.id);
-        }
-    })
-
-    return activeChat
-}
-
-export function ApplicationSidebar(data: IActiveChat) {
-    const [filterValue, setFilterValue] = useState("");
-
-    const onClickSimple = (item: SidebarItem.IData): boolean => {
-        data.setActiveChat(item.id);
-        return true;  
-    };
-
-    const itemsSimple: SidebarItem.IData[] = [
-        { id: "1", title: "Hans Becker", onClick: onClickSimple, iconContent: <Avatar color={Color.Chart_Purple100} /> },
-        { id: "2", title: "Thomas Wood", onClick: onClickSimple, iconContent: <Avatar color={Color.Chart_Blue300} /> },
-        { id: "3", title: "Alen Green", onClick: onClickSimple, iconContent: <Avatar color={Color.Chart_Violet300} /> },
-        { id: "4", title: "Phill Barret", onClick: onClickSimple, iconContent: <Avatar color={Color.Chart_Yellow300} /> },
-    ];
-
     return(
-        <>
-            <Filter value={filterValue} 
-            onChange={(value: string): void => {
-                setFilterValue(value);
-            } } onTextClear={(): void => {
-                setFilterValue("");
-            } }
-            isOnChangeWithDelay={true} />
-            <ViewerContainer withoutPadding background={Background.Transparent}>
-                <Sidebar>
-                    {getFriendList(itemsSimple, filterValue)}
-                </Sidebar>
-            </ViewerContainer>
-        </>
+        <ViewerContainer background={Background.Transparent} withoutPadding>
+            {getFriendList(TestFriends)}
+        </ViewerContainer>
     );
 }

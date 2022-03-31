@@ -328,7 +328,7 @@ bobwai--icon-svg@*:
     bobwai--design-tokens "*"
     bobwai--icon "*"
 
-bobwai--icon@*, bobwai--icon@^18.12.3:
+bobwai--icon@*:
   version "18.12.3"
   resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--icon/-/bobwai--icon-18.12.3.tgz#d6c9d3244da95acfa570e870e76ec417e4ccd71c"
   integrity sha1-1snTJE2pWs+lcOhw527EF+TM1xw=
@@ -380,6 +380,15 @@ bobwai--l-center@*:
   dependencies:
     bobril "*"
     bobwai--style-mixins "*"
+
+bobwai--l-content-with-header@^2.0.3:
+  version "2.0.3"
+  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--l-content-with-header/-/bobwai--l-content-with-header-2.0.3.tgz#abc879986df1e7650dbb3c28b13b207c825d9b03"
+  integrity sha1-q8h5mG3x52UNuzwosTsgfIJdmwM=
+  dependencies:
+    bobril "*"
+    bobwai--scroll-shadow "*"
+    helpers--scrollbar-size "*"
 
 bobwai--l-field-group@*:
   version "3.0.4"
@@ -544,25 +553,7 @@ bobwai--scroll-shadow@*:
     helpers--scrollbar-size "*"
     helpers--ui-framework-switcher "*"
 
-bobwai--sidebar-item-collapsible@*:
-  version "4.4.3"
-  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar-item-collapsible/-/bobwai--sidebar-item-collapsible-4.4.3.tgz#4760d4e51f8d703c6bf6a93a3ebff3ca3350c1de"
-  integrity sha1-R2DU5R+NcDxr9qk6Pr/zyjNQwd4=
-  dependencies:
-    bobril "*"
-    bobwai--animation "*"
-    bobwai--animation-frame "*"
-    bobwai--color "*"
-    bobwai--design-tokens "*"
-    bobwai--form-elements "*"
-    bobwai--icon "*"
-    bobwai--sidebar-item "*"
-    helpers--focusable-component "*"
-    helpers--key-codes "*"
-    helpers--ui-framework-switcher "*"
-    helpers--web-content-accessibility "*"
-
-bobwai--sidebar-item@*, bobwai--sidebar-item@^6.1.0:
+bobwai--sidebar-item@^6.1.0:
   version "6.1.0"
   resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar-item/-/bobwai--sidebar-item-6.1.0.tgz#9cfc432721d10dc04714928399116a8c9c3ddcc5"
   integrity sha1-nPxDJyHRDcBHFJKDmRFqjJw93MU=
@@ -583,19 +574,6 @@ bobwai--sidebar-item@*, bobwai--sidebar-item@^6.1.0:
     helpers--key-codes "*"
     helpers--ui-framework-switcher "*"
     helpers--web-content-accessibility "*"
-
-bobwai--sidebar@^2.0.10:
-  version "2.0.10"
-  resolved "https://pkgs.dev.azure.com/storeit/_packaging/bobwai-npm/npm/registry/bobwai--sidebar/-/bobwai--sidebar-2.0.10.tgz#d817c57b118feeaf7445839918fd47f43708ffa2"
-  integrity sha1-2BfFexGP7q90RYOZGP1H9DcI/6I=
-  dependencies:
-    bobril "*"
-    bobwai--color "*"
-    bobwai--design-tokens "*"
-    bobwai--sidebar-item "*"
-    bobwai--sidebar-item-collapsible "*"
-    bobwai--style-mixins "*"
-    helpers--ui-framework-switcher "*"
 
 bobwai--state-icon@*:
   version "4.9.1"
